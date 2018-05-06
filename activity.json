@@ -1,0 +1,36 @@
+{
+  "name": "CloudSqlConnection",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "git.tibco.com/git/field/flogohackathon/drift_with_go.git",
+  "description": "Connect to Google Cloud Sql Instance",
+  "author": "Tejas Shah",
+  "inputs":[
+    {
+      "name": "hostname",
+      "type": "string"
+    },
+    {
+      "name": "port",
+      "type": "int"
+    },
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "password",
+      "type": "string"
+    },
+    {
+      "name": "instance",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
