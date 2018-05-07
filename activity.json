@@ -2,7 +2,7 @@
   "name": "CloudSqlConnection",
   "version": "0.0.1",
   "type": "flogo:activity",
-  "ref": "git.tibco.com/git/field/flogohackathon/drift_with_go.git",
+  "ref": "github.com/teshahtibco/cloudsqlsample",
   "description": "Connect to Google Cloud Sql Instance",
   "author": "Tejas Shah",
   "inputs":[
@@ -12,7 +12,7 @@
     },
     {
       "name": "port",
-      "type": "int"
+      "type": "string"
     },
     {
       "name": "username",
